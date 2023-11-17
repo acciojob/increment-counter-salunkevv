@@ -5,5 +5,7 @@ let count=0;
 function func()
 {
 	count++;
+	alert(count);
+	para.innerHTML=count;
 }
 buttons.addEventListener("click",func);
