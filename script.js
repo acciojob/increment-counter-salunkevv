@@ -4,8 +4,8 @@ let buttons = document.getElementById("incrementBtn");
 let count=0;
 function func()
 {
-	para.innerHTML=count;
 	count++;
+	para.innerHTML=count;
 	alert(count);
 }
 buttons.addEventListener("click",func);
